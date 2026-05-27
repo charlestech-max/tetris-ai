@@ -12,4 +12,4 @@ class CustomTensorBoard(TensorBoard):
     def log(self, step, **stats):
         with self.writer.as_default():
             for name, value in stats.items():
-                tf.summary.scalar(name, value, step=step)
+                tf.summary.scalar(name, value, step=step)
