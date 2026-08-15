@@ -169,4 +169,4 @@ class DQNAgent:
     def save_model(self, name):
         '''Saves the current model.
         It is recommended to name the file with the ".keras" extension.'''
-        self.model.save(name)
+        self.model.save(name)
