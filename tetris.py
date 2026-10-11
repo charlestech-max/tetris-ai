@@ -310,4 +310,4 @@ class Tetris:
         img = np.array(img)
         cv2.putText(img, str(self.score), (22, 22), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 1)
         cv2.imshow('image', np.array(img))
-        cv2.waitKey(1)
+        cv2.waitKey(1)
